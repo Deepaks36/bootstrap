@@ -1,0 +1,337 @@
+ /* /* #head{
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        } */
+        /* #nav{
+            position: fixed;
+            top: 0;
+            margin-top: 50px;
+        } */
+        #ra{
+            margin-left: 20px!important;
+            width: 98%!important;
+           }
+          @media only screen and (min-width:768px) and (max-width:2560px){
+            #ra{
+              margin-top: -130px;
+            }
+            #je{
+              font-weight: 700px;
+            }
+            #je:hover{
+              background-color: #7277fd !important;
+              color: white !important;
+            }
+            #lc{
+              height: 400px;
+              width: 1300px;
+              backdrop-filter: brightness(100px);
+            }
+            #po{
+              line-height: 30px;
+            }
+            #fi{
+              font-size: 25px;
+              font-weight: 700px;
+            }
+            #sr{
+              font-size: 50px;
+              color: white;
+            }
+            #pr{
+              width: 140px;
+            }
+            .dk{
+              margin-left: 200px;
+            }
+            #kl{
+              border: 3px solid black;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+            }
+            #tech :hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #team-1{
+              margin-left: 15px;
+              /* margin-right: 15px; */
+              margin-top: 15px;
+              width: 13rem;
+            }
+            #kl:hover{
+              border: 3px solid white;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+            }
+            #address:hover{
+              border: 1px solid white;
+              background-color: #7277fd;
+              color: white;
+              transform: scale(1.1);
+            }
+            #addresss:hover{
+              color: white !important;
+            }
+            #ap{
+              margin-top: -320px;
+            }
+            #mp{
+              height: 80px;
+              width: 80px;
+            }
+            #app img:hover{
+              transform: scale(0.9);
+            }
+            #product img:hover{
+              transform: scale(0.9);
+            }
+            #branding img:hover{
+              transform: scale(0.9);
+            }
+            #books img:hover{
+              transform: scale(0.9);
+            }
+            #apps:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #products:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #brandings:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #bookss:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #bu{
+              margin-top: 100px;
+            }
+            /* #je{
+              padding-left: 10px !important;
+            } */
+            .v{
+              margin-left: 300px;
+              margin-right: 300px;
+              border: 2px solid #7277fd;
+            }
+            /* #ka{
+              height: 200px;
+            } */
+            .st{
+              margin-top: -50px;
+            }
+            #Walter{
+              /* font-size: 25px; */
+              height: 35px;
+              width: 35px;
+              /* height: 100px;
+              width: 100px; */
+              /* padding: 5px;
+              margin-top: 5px; */
+              /* border-radius: 50%;
+              border: 1px solid black; */
+  
+  
+            }
+            #walter:hover{
+              background-color: #7277fd !important;
+              color: white !important;
+            }
+            #so{
+              /* padding-left: 40px !important; */
+              padding-right: 120px !important;
+              border: 2px solid grey !important;
+            }
+            #su{
+              border: 1px solid #7277fd !important; 
+              text-decoration: none !important; 
+              color: white !important; 
+              background-color: #7277fd !important;
+            }
+            #ha{
+              padding-right: 170px !important;
+              border: 2px solid grey !important;
+            }
+            #floatingTextarea2{
+              border: 2px solid grey !important;
+            }
+            #white{
+              /* border-radius: 50%;
+              border: 1px solid black;
+              height: 70px;
+              width: 50px; */
+              color: gray;
+  
+            }
+            #qr{
+              margin-left: 200px;
+              margin-top: -100px !important;
+              font-size: 25px;
+            }
+            #politics{
+              width: 19rem !important;
+            }
+            #business{
+              width: 19rem !important;
+              height: 42rem;
+              margin-right: 10px !important;
+            }
+            #lab:hover{
+              border: 1px solid white !important;
+              background-color: #7277fd;
+              color: white !important;
+            }
+            #free{
+              width: 18rem !important;
+            }
+            #tv{
+              width: 15rem !important;
+            }
+            #developer{
+              width: 18rem !important;
+            }
+            #ma{
+              margin-top: 100px;
+              color: #7277fd !important;
+            }
+            /* #el{
+              margin-top: 130px;
+            } */
+            /* #carouselExampleIndicators{
+              margin-top: 150px;
+            } */
+            #bk{
+              margin-top: 50px;
+              
+            }
+            #pr:hover{
+              animation-play-state:  paused !important;
+              transform: scale(1.1);
+            }
+            #kr{
+              height: 30px;
+              width: 130px;
+              position: relative;
+              margin-left: 20px;
+            /* animation: deepak 10s infinite ease-in-out; */
+              animation-name: deepak;
+              animation-duration: 10s;
+              animation-timing-function: ease-in-out;
+              animation-iteration-count: infinite;
+              animation-delay: 2s;
+            }
+            /* @keyframes deepak {
+              from{left:  -600px;}
+              to{left:  80px;}
+            } */
+            @keyframes deepak {
+              0% { transform: translateX(0) }
+
+              100% { transform: translate(-100%) }
+             }
+             /* animation: scroll var(--duration) linear infinite; */
+          }
+          @media only screen and (min-width:375px) and (max-width:767px){
+            .v{
+              margin-left: 130px;
+              border: 2px solid #7277fd;
+              margin-right: 130px;
+            }
+            #su{
+              border: 1px solid #7277fd !important; 
+              text-decoration: none !important; 
+              color: white !important; 
+              background-color: #7277fd !important;
+            }
+            #Walter{
+              height: 35px;
+              width: 35px;
+            }
+            #team-1{
+              margin-left: 15px;
+              /* margin-right: 15px; */
+              margin-top: 15px;
+              width: 13rem;
+            }
+            #ma{
+              margin-top: 60px;
+              color: #7277fd !important;
+            }
+            #mp{
+              height: 60px;
+            }
+            #je:hover{
+              background-color: #7277fd !important;
+              color: white !important;
+            }
+            #tech :hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #address:hover{
+              border: 1px solid white;
+              background-color: #7277fd;
+              color: white;
+              transform: scale(1.1);
+            }
+            #addresss:hover{
+              color: white !important;
+            }
+            #app img:hover{
+              transform: scale(0.9);
+            }
+            #product img:hover{
+              transform: scale(0.9);
+            }
+            #branding img:hover{
+              transform: scale(0.9);
+            }
+            #books img:hover{
+              transform: scale(0.9);
+            }
+            #apps:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #products:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #brandings:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #bookss:hover{
+              background-color: #7277fd;
+              color: white;
+            }
+            #bk{
+              margin-top: 50px;
+            }
+            #lc{
+              height: 300px;
+              backdrop-filter: brightness(100px);
+            }
+            #sr{
+              font-size: 20px;
+              color: white;
+            }
+            #ap{
+              margin-top: -270px;
+            }
+            .st{
+              margin-top: -50px!important;
+              color: brown!important;
+            }
+            li{
+              margin-right: 10px;
+            }
+          }
